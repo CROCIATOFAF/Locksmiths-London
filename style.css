@@ -305,6 +305,12 @@ ul {
   cursor: pointer;
 }
 
+.contact-us__form-wrapper button:hover,
+.contact-us__form-wrapper button:focus {
+  transform: scale(1.1);
+  transition: 0.7s ease;
+}
+
 .contact-us__form-wrapper span {
   background-image: linear-gradient(180deg, #254A93 0%, #2490F4 100%);
   -webkit-background-clip: text;
@@ -323,6 +329,12 @@ ul {
 
 .contact-us__form-checkbox input[type="checkbox"] + label {
   position: relative;
+}
+
+.contact-us__form-checkbox input[type="checkbox"] + label:focus,
+.contact-us__form-checkbox input[type="checkbox"] + label:hover {
+  opacity: 0.6;
+  transition: 0.7s ease;
 }
 
 .contact-us__form-checkbox input[type="checkbox"]:checked + label::after {
